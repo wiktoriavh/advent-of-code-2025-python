@@ -45,7 +45,7 @@ pip install -r requirements.txt
 To run the solution for a specific day and see the output:
 
 ```bash
-python -m src.1
+python -m src.day1
 ```
 
 Replace `1` with the day you want to run (e.g., `2`, `3`, etc.).
@@ -56,7 +56,7 @@ Alternatively, you can run from within the src directory:
 
 ```bash
 cd src
-python 1.py
+python day1.py
 ```
 
 ## Testing
@@ -82,7 +82,7 @@ pytest --cov=src --cov-report=term-missing
 ## Workflow for Each Day
 
 1. **Create new day files:**
-   - Copy `src/1.py` to `src/X.py` (where X is the day number)
+   - Copy `src/day1.py` to `src/dayX.py` (where X is the day number)
    - Copy `test/test_1.py` to `test/test_X.py`
    - Create `text/X.txt` for your puzzle input
 
@@ -92,7 +92,7 @@ pytest --cov=src --cov-report=term-missing
    - Copy your full input into `text/X.txt`
 
 3. **Implement the solution:**
-   - Start with Part 1 in `src/X.py`
+   - Start with Part 1 in `src/dayX.py`
    - Run tests: `pytest test/test_X.py -v`
    - Run the solution: `python -m src.X`
 
@@ -100,14 +100,6 @@ pytest --cov=src --cov-report=term-missing
    - Submit Part 1 answer
    - Implement Part 2
    - Test and run again
-
-## Tips
-
-- Always test with the example input first before running on the full input
-- Keep your puzzle inputs in `text/` (these are unique to you, don't share them publicly)
-- Use descriptive function and variable names
-- Add comments for complex logic
-- Consider adding helper functions to keep code clean
 
 ## Deactivating the Virtual Environment
 
