@@ -1,5 +1,5 @@
 """
-Advent of Code 2025 - Day 1
+Advent of Code 2025 - Day 2
 """
 
 def part1(input_text: str) -> int:
