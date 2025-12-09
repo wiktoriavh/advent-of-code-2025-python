@@ -18,14 +18,13 @@ EXAMPLE_INPUT = """\
 
 def test_part1_example():
     """Test part 1 with the example input."""
-    result = part1(EXAMPLE_INPUT)
+    result = part1(EXAMPLE_INPUT)[0]
     expected = 1227775554
     assert result == expected, f"Expected {expected}, got {result}"
 
-
 def test_part2_example():
     """Test part 2 with the example input."""
-   # result = part2(EXAMPLE_INPUT)
-    #expected = 6
-    #assert result == expected, f"Expected {expected}, got {result}"
+    result = part2(EXAMPLE_INPUT)
+    expected = 4174379265
+    assert result == expected, f"Expected {expected}, got {result}"
 

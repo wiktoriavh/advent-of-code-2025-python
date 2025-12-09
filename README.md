@@ -61,10 +61,10 @@ python day1.py
 
 ## Testing
 
-### Run Tests for a Specific Day
+### Run Tests for a Specific Day with watching the scr
 
 ```bash
-pytest test/test_1.py -v
+ptw -- test/test_1.py -v
 ```
 
 ### Run All Tests
