@@ -15,10 +15,12 @@ def part1(input_text: str) -> int:
     while alpha <= beta:
       id = str(alpha)
 
+      # Part 2
       repeats = repeating(id, 2)
       if repeats:
         invalidIds2 += alpha
 
+      # Part 1
       if len(id) % 2 != 0:
         alpha += 1
         continue
